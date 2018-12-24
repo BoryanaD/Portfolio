@@ -1,0 +1,108 @@
+section.home-grid {
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url(../images/home-page-crop.jpg);
+  background-position: top 10vh left -9vh;
+  background-size: cover;
+
+  @include breakpoints(phablet) {
+    background-position: top 7vh left 0vh;
+  }
+
+  div > p {
+    align-self: start;
+    // font-size: 3vw;
+    color: #55efc4;
+    // padding: 1rem 2rem 2rem 0;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-rows: 7vh;
+  grid-auto-rows: 11vh;
+  grid-template-columns: 1fr repeat(6, 3fr) 1fr;
+}
+
+.grid > div {
+  position: relative;
+  background-color:var(--color-background);
+  border: 1px solid var(--color-background);
+  outline-style: solid;
+  outline-color:var(--color-background);
+  outline-width: 1.2vw;
+  overflow: visible;
+}
+
+@include breakpoints(tablet) {
+  .grid > div {outline-width: 1.1vw;}
+}
+
+div {
+  & .green {
+    background-color: rgba(85, 239, 196,0.4);
+  & .green:hover {
+      background: rgba(85, 239, 196,1);
+    }
+  }
+  & .green-dark {
+    background-color: rgba(85, 239, 196, 0.7);
+  }
+  & .dark {
+    background-color: rgba(7, 153, 146,1.0);
+  }
+  & .dyankova {
+    font-size: 1.5em;
+    grid-column-start: span 4;
+  }
+  & .boryana {
+    font-size: 2.2em;
+    grid-column-end: span 3;
+  }
+  & .hat,.buttom {
+    grid-column-end: span 3;
+  }
+
+  & .test {
+    grid-column-end: span 3;
+  }
+
+
+  & p { padding-bottom: 0;}
+
+  & .sub-title {
+    grid-column-end: span 2;
+    grid-row-end: span 3;
+  }
+
+  & .row-eyes {
+    grid-column-end: span 1;
+    grid-row-end: span 3;
+  }
+  & .row-eyes__m {
+    grid-column-end: span 2;
+    grid-row-end: span 3;
+  }
+
+  & .eyes {
+    grid-column-end: span 3;
+    grid-row-end: span 3;
+  }
+
+
+  & .under-eyes {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+  }
+}
+
+@include breakpoints(desktop){
+  .pop {
+    transition: transform 300ms ease-out;
+    }
+  .pop:hover {
+    outline-width: 0.2vw;
+    transform: scale(1.05);
+  }
+}

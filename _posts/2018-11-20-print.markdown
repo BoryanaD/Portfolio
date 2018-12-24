@@ -1,0 +1,7 @@
+---
+layout: site2
+type: post
+title:  "Print"
+categories: [blog, home]
+date:   2018-11-15 10:12:17 +0200
+---

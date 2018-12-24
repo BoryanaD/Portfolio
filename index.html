@@ -1,0 +1,90 @@
+---
+
+layout: site
+---
+
+<section class="home-grid">
+
+  <div class="grid">
+
+    <!-- row1  -->
+    <div class="dark"></div>
+    <div class="dyankova pop"><p>Dyankova</p></div>
+    <div></div>
+    <div></div>
+    <div class="green-dark"></div>
+
+    <!-- row2  -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="dark hat"></div>
+
+    <!-- row3  -->
+    <div class="boryana pop"><p>Boryana</p></div>
+
+    <div class="test green"></div>
+    <div class="green-dark"></div>
+    <div></div>
+
+    <!-- row4  -->
+    <div class="sub-title"><p class="pop">Graphic Designer </br>&#38; Front-end Adventurer</p>
+
+      <div class="listing pop">
+        <ul class="listing posts">
+            {% for post in site.posts %}
+              <li>
+                <!-- <svg height="40" width="180">
+                        <rect class="shape" height="40" width="180" />
+                      </svg> -->
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <span class="title">{{ post.title }}</span>
+                  <!-- <span class="title">{{ post.date | date_to_string }}</span> -->
+                </a>
+              </li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="green eyes"></div>
+    <div class="green-dark row-eyes"></div>
+    <div class="green row-eyes__m"></div>
+
+
+    <!-- row5  -->
+    <div></div>
+    <div class="dark"></div>
+    <div></div>
+    <div class="green-dark"></div>
+    <div class="green under-eyes"></div>
+    <div></div>
+
+    <!-- row6  -->
+    <div class="green-dark"></div>
+    <div></div>
+    <div class="green"></div>
+    <div class="green"></div>
+    <div></div>
+    <div></div>
+    <div class="dark buttom"></div>
+    <div class="green"></div>
+
+    <!-- row7  -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="dark"></div>
+    <div></div>
+
+  </div>
+
+</section>

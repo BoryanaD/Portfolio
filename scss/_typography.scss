@@ -1,0 +1,59 @@
+html {
+  font: var(--font-size-initial, 12px)/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+@media screen and (min-width: 500px) {
+  html { font-size: var(--font-size-lv2, 14px); }
+}
+
+@media screen and (min-width: 700px) {
+  html { font-size: var(--font-size-lv3, 15px); }
+}
+
+@media screen and (min-width: 1600px) {
+  html { font-size: var(--font-size-lv4, 18px); }
+}
+
+body, table, th, td, form, input, textarea, option, select, p {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  line-height: 1.2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+$headings: (h1: 2.7em, h2: 2em, h3: 1.55em, h4: 1.25em, h5: 1.2em, h6: 1em);
+
+@each $heading, $size in $headings {
+  #{$heading} { font-size: $size; }
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  @include breakpoints(phablet) {font-size: 2.5em;}
+  @include breakpoints(tablet-wide) {font-size: 2.7em; margin-bottom: 2em;}
+  }
+
+h5, h6 { font-weight: bold;}
+
+p, ul, ol {
+  padding-bottom: 1.5em;
+}
+
+ul, ol {
+  padding-left: 2em;
+}
+
+li {
+  list-style-position: inside;
+  font-size: 1em;
+}

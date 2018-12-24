@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{{ site.title }}</title>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/fav.png" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
+</head>
+<body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
+  <div class="site">
+
+    <input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
+
+    <header class="site-header">
+      <div class="site-branding">
+        <p class="site-title"><a href="{{ site.baseurl }}/">Portfolio</a></p>
+        <p class="site-description">{{ site.description }}</p>
+      </div>
+
+      <label id="nav-toggle" for="nav-main-toggle" class="fas fa-bar nav-toglle right"></label>
+      <nav class="navigation main">
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/about/">About</a></li>
+          <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-content">{{content}}</main>
+  </div>
+</body>
+</html>

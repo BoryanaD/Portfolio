@@ -1,0 +1,31 @@
+title: Boryana Dyankova
+description: Graphic design
+email: bo.dyankova@gmail.com
+
+baseurl: "/my-exam" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+destination: "docs"
+twitter_username: jekyllrb
+github_username:  BoryanaD
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+#destination: ?
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - scss
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  # - _site
+  # - scss - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/

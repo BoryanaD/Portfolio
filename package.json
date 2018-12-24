@@ -1,0 +1,32 @@
+{
+  "name": "lazy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": "",
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "csso": "",
+    "gulp": "",
+    "gulp-autoprefixer": "",
+    "gulp-changed": "",
+    "gulp-csso": "",
+    "gulp-htmlmin": "",
+    "gulp-inline-source": "",
+    "gulp-load-plugins": "",
+    "gulp-notify": "",
+    "gulp-plumber": "",
+    "gulp-sass": "",
+    "gulp-size": "",
+    "gulp-sourcemaps": "",
+    "gulp-util": ""
+  },
+  "repository": "",
+  "bugs": "",
+  "homepage": "",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
