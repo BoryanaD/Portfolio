@@ -42,3 +42,24 @@ body.post {
     filter: drop-shadow(0 0 1px #000);}
   }
 }
+
+ // ------------ GRID PRINT ------------------
+
+.print-grid {
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-columns: repeat(5, 3fr);
+
+  .print-grid-items {
+    position: relative;
+    // overflow: visible;
+    grid-column-end: span 2;
+    align-items: end;
+    p {
+      align-self: end;
+      }
+  }
+  .print-grid-items_image {
+    grid-column-end: span 3;
+  }
+}
