@@ -1,5 +1,7 @@
-body.post {
-  background: #fff;
+body {
+  &.post {
+    background: #fff;
+  }
 }
 
 
@@ -7,59 +9,86 @@ body.post {
 	max-width: 100rem;
 	margin: 0 auto;
 	padding: 0 1rem 2rem;
-
-  .heading {
-  	font-family: "Montserrat", Arial, sans-serif;
-  	font-size: 3rem;
-  	font-weight: 500;
-  	line-height: 1.5;
-  	text-align: center;
-  	padding: 1rem 0;
-  	color: #1a1a1a;
-
-    span {
-    	display: block;
-    }
-  }
 }
+
+// .heading {
+// 	font-family: "Montserrat", Arial, sans-serif;
+// 	font-size: 3rem;
+// 	font-weight: 500;
+// 	line-height: 1.5;
+// 	text-align: center;
+// 	padding: 1rem 0;
+// 	color: #1a1a1a;
+//
+//   span {
+//   	display: block;
+//   }
+// }
 
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20em, 2fr));
 	grid-gap: 2em;
 
+  .gallery-title {
+    max-width: 350px;
+    p {
+      color: var(--color-background);
+      text-align: right;
+    }
+  }
+
   .gallery-image {
   	display: block;
   	width: 100%;
   	height: 100%;
   	object-fit: cover;
+  }
+  .gallery-image__web {
+
   	transition: transform 300ms ease-out;
+
   }
   @include breakpoints(tablet-wide){
-  .gallery-image:hover {
-    transform: scale(1.1);
+  .gallery-image__web:hover {
+    transform: scale(1.03);
     // border: 10px solid #fff;
-    filter: drop-shadow(0 0 1px #000);}
+    filter: drop-shadow(0 0 1px var(--color-text-main));}
   }
 }
 
  // ------------ GRID PRINT ------------------
 
 .print-grid {
-  display: grid;
-  grid-gap: 1vw;
-  grid-template-columns: repeat(5, 3fr);
+display: grid;
+grid-template-columns: repeat(5, 3fr);
+grid-gap: 1vw;
+justify-items: center;
+align-content: start;
 
-  .print-grid-items {
-    position: relative;
-    // overflow: visible;
-    grid-column-end: span 2;
-    align-items: end;
-    p {
-      align-self: end;
-      }
+.print-grid-items {
+  grid-column-end: span 2;
+  align-items: center;
+  p {
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    }
   }
-  .print-grid-items_image {
-    grid-column-end: span 3;
+.print-grid-items_end {
+  z-index: 2;
+  grid-column-end: span 2;
+  align-self: end;
+  p {
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    }
+}
+.print-grid-items_image {
+  z-index: 1;
+  grid-column-end: span 3;
   }
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-01-07T11:07:59+02:00</updated><id>/feed.xml</id><title type="html">Boryana Dyankova</title><subtitle>Graphic design</subtitle><entry><title type="html">Logo</title><link href="/blog/home/2018/11/22/logo.html" rel="alternate" type="text/html" title="Logo" /><published>2018-11-22T10:12:17+02:00</published><updated>2018-11-22T10:12:17+02:00</updated><id>/blog/home/2018/11/22/logo</id><content type="html" xml:base="/blog/home/2018/11/22/logo.html">&lt;div class=&quot;container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-01-09T15:14:00+02:00</updated><id>/feed.xml</id><title type="html">Boryana Dyankova</title><subtitle>Graphic design</subtitle><entry><title type="html">Logo</title><link href="/blog/home/2018/11/22/logo.html" rel="alternate" type="text/html" title="Logo" /><published>2018-11-22T10:12:17+02:00</published><updated>2018-11-22T10:12:17+02:00</updated><id>/blog/home/2018/11/22/logo</id><content type="html" xml:base="/blog/home/2018/11/22/logo.html">&lt;div class=&quot;container&quot;&gt;
 
 	&lt;div class=&quot;gallery&quot;&gt;
 
@@ -28,52 +28,112 @@
 	&lt;/div&gt;
 
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Web</title><link href="/blog/home/2018/11/15/web.html" rel="alternate" type="text/html" title="Web" /><published>2018-11-15T10:12:17+02:00</published><updated>2018-11-15T10:12:17+02:00</updated><id>/blog/home/2018/11/15/web</id><content type="html" xml:base="/blog/home/2018/11/15/web.html">&lt;div class=&quot;container&quot;&gt;
+
+
 	&lt;div class=&quot;gallery&quot;&gt;
-		&lt;div class=&quot;gallery-item&quot;&gt;
+		&lt;div class=&quot;gallery-title gallery-item&quot;&gt;
+			&lt;p&gt;&lt;b&gt;Web&lt;/b&gt;&lt;br /&gt;Design&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
 			&lt;a href=&quot;https://www.deansautomotive.com&quot; target=&quot;blank&quot;&gt;
-        &lt;img class=&quot;gallery-image&quot; src=&quot;/images/deans-automotive.jpg&quot; alt=&quot;Deans Automotive | Web design&quot; title=&quot;Deans Automotive | Web design&quot; /&gt;&lt;/a&gt;
+        &lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/deansautomotive.png&quot; alt=&quot;Deans Automotive | Web design&quot; title=&quot;Deans Automotive | Web design&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
-		&lt;div class=&quot;gallery-item&quot;&gt;
+		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
       &lt;a href=&quot;https://www.northhollywoodauto.com&quot; target=&quot;blank&quot;&gt;
-  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/north-hollywood-web.jpg&quot; alt=&quot;North Hollywood Auto | Web design&quot; title=&quot;Kolev's | Web design&quot; /&gt;&lt;/a&gt;
+  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/northhollywood.png&quot; alt=&quot;North Hollywood Auto | Web design&quot; title=&quot;North Hollywood Auto | Web design&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
-		&lt;div class=&quot;gallery-item&quot;&gt;
+
+		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
+  			&lt;!-- &lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/more-soon-2.png&quot; alt=&quot;More Designs Soon | Web design&quot; title=&quot;North Hollywood Auto | Web design&quot;&gt; --&gt;
+		&lt;/div&gt;
+
+&lt;!-- FRONT end --&gt;
+
+		&lt;div class=&quot;gallery-title gallery-item&quot;&gt;
+			&lt;p&gt;&lt;b&gt;Front-End&lt;/b&gt;&lt;br /&gt; Development&lt;/p&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
 			&lt;a href=&quot;https://www.1st-classtowing.com/&quot; target=&quot;blank&quot;&gt;
-        &lt;img class=&quot;gallery-image&quot; src=&quot;/images/1stClass-Towing.jpg&quot; alt=&quot;First Class Towing | Front-End&quot; title=&quot;First Class Towing | Front-End&quot; /&gt;&lt;/a&gt;
+        &lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/firstclass-towing.png&quot; alt=&quot;First Class Towing | Front-End&quot; title=&quot;First Class Towing | Front-End&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
-		&lt;div class=&quot;gallery-item&quot;&gt;
+		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
       &lt;a href=&quot;https://www.germanautowerk.com/&quot; target=&quot;blank&quot;&gt;
-  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/german-web.jpg&quot; alt=&quot;German Autowerk | Front-End&quot; title=&quot;German Autowerk | Front-End&quot; /&gt;&lt;/a&gt;
+  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/germanauto.png&quot; alt=&quot;German Autowerk | Front-End&quot; title=&quot;German Autowerk | Front-End&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
-		&lt;div class=&quot;gallery-item&quot;&gt;
+		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
       &lt;a href=&quot;https://www.avusautosport.com&quot; target=&quot;blank&quot;&gt;
-  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/avus-web.jpg&quot; alt=&quot;Avus Autosport | Front-End&quot; title=&quot;Avus Autosport | Front-End&quot; /&gt;&lt;/a&gt;
+  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/avusautosport.png&quot; alt=&quot;Avus Autosport | Front-End&quot; title=&quot;Avus Autosport | Front-End&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Print</title><link href="/blog/home/2018/11/15/print.html" rel="alternate" type="text/html" title="Print" /><published>2018-11-15T10:12:17+02:00</published><updated>2018-11-15T10:12:17+02:00</updated><id>/blog/home/2018/11/15/print</id><content type="html" xml:base="/blog/home/2018/11/15/print.html">&lt;div class=&quot;print-grid&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Print</title><link href="/blog/home/2018/01/07/print.html" rel="alternate" type="text/html" title="Print" /><published>2018-01-07T10:12:17+02:00</published><updated>2018-01-07T10:12:17+02:00</updated><id>/blog/home/2018/01/07/print</id><content type="html" xml:base="/blog/home/2018/01/07/print.html">&lt;div class=&quot;print-grid&quot;&gt;
+	&lt;!-- ROW 1 --&gt;
+	&lt;div class=&quot;print-grid-items&quot;&gt;
+		&lt;!-- &lt;img src=&quot;/images/brands/kukui-logo.png&quot;&gt; --&gt;
+		&lt;p&gt;&lt;b&gt;Postcard&lt;/b&gt; Design&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;print-grid-items_image&quot;&gt;
+		&lt;img src=&quot;/images/postcards-pattern.png&quot; /&gt;
+	&lt;/div&gt;
 
-  &lt;!--  ROW 1 --&gt;
+	&lt;!-- ROW 2 --&gt;
+	&lt;div class=&quot;print-grid-items_image&quot;&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/3con/nani-cover.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;print-grid-items_end&quot;&gt;
+		&lt;!-- &lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/nani.png&quot;&gt; --&gt;
 
-    &lt;div class=&quot;print-grid-items&quot;&gt;&lt;p&gt;Postcard Design&lt;/p&gt;
-      &lt;!-- &lt;img src=&quot;/images/bella-magazine.jpg&quot;&gt; --&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;print-grid-items&quot;&gt;
-      &lt;img src=&quot;/images/postcards-pattern.png&quot; /&gt;
-    &lt;/div&gt;
-  &lt;!--  ROW 2 --&gt;
+		&lt;p&gt;&lt;b&gt;Catalogue&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Size A4 | 16 pages&lt;/p&gt;
+		&lt;img src=&quot;/images/3con/nani-open.png&quot; /&gt;
+	&lt;/div&gt;
 
-    &lt;div class=&quot;print-grid-items&quot;&gt;
-      &lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/bella.png&quot; /&gt;
-      &lt;p&gt;Bella Inside | Corporate Magazine&lt;/p&gt;
-      &lt;p&gt;First award for corporate magazine of Grapevine awards 2010, Bulgaria&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;print-grid-items_image&quot;&gt;&lt;img src=&quot;/images/bella-magazine.jpg&quot; /&gt;&lt;/div&gt;
-  &lt;!--  ROW 3 --&gt;
-    &lt;div class=&quot;print-grid-items&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;print-grid-items&quot;&gt;&lt;/div&gt;
-    &lt;div class=&quot;print-grid-items&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+	&lt;!-- ROW 3 --&gt;
+	&lt;div class=&quot;print-grid-items&quot;&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/greapevine-awards.png&quot; /&gt;
+		&lt;p&gt;&lt;b&gt;Bella Inside | Corporate Magazine&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;First award for corporate magazine of Grapevine awards 2010, Bulgaria&lt;/p&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/bella.png&quot; /&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;print-grid-items_image&quot;&gt;&lt;img src=&quot;/images/bella-magazine.jpg&quot; /&gt;&lt;/div&gt;
+
+	&lt;!-- ROW 4 --&gt;
+
+	&lt;div class=&quot;print-grid-items_image&quot;&gt;
+		&lt;img src=&quot;/images/magazines/Regal-open.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;print-grid-items&quot;&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/magazines/regal.png&quot; /&gt;
+		&lt;p&gt;&lt;b&gt;Regal&lt;/b&gt; | B2B Magazine&lt;/p&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/economedia.png&quot; /&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ROW 5 --&gt;
+
+	&lt;div class=&quot;print-grid-items&quot;&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/magazines/horemag.png&quot; /&gt;
+		&lt;p&gt;&lt;b&gt;HOREMAG&lt;/b&gt; | B2B Magazine&lt;/p&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/economedia.png&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;print-grid-items_image&quot;&gt;
+		&lt;img src=&quot;/images/magazines/Regal-open.png&quot; /&gt;
+	&lt;/div&gt;
+
+	&lt;!-- ROW ? --&gt;
+	&lt;!-- &lt;div class=&quot;print-grid-items_image&quot;&gt;
+		&lt;img class=&quot;print_logo&quot; src=&quot;/images/3con/mesoestetic.png&quot;&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;print-grid-items_end&quot;&gt;
+		&lt;!-- &lt;img class=&quot;print_logo&quot; src=&quot;/images/brands/nani.png&quot;&gt; --&gt;
+
+		&lt;!-- &lt;p&gt;&lt;b&gt;Catalogue&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Size A6 | 64 pages&lt;/p&gt;
+		&lt;img src=&quot;/images/3con/mesoestetic-catalog.png&quot;&gt;
+	&lt;/div&gt; --&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Postcard Design</summary></entry></feed>

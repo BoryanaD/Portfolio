@@ -7,30 +7,46 @@ date:   2018-11-15 10:12:17 +0200
 ---
 
 <div class="container">
+
+
 	<div class="gallery">
-		<div class="gallery-item">
+		<div class="gallery-title gallery-item">
+			<p><b>Web</b><br>Design</p>
+		</div>
+		<div class="gallery-item gallery-image__web">
 			<a href="https://www.deansautomotive.com" target="blank">
-        <img class="gallery-image" src="{{ site.baseurl }}/images/deans-automotive.jpg" alt="Deans Automotive | Web design" title="Deans Automotive | Web design"></a>
+        <img class="gallery-image" src="{{ site.baseurl }}/images/web/deansautomotive.png" alt="Deans Automotive | Web design" title="Deans Automotive | Web design"></a>
 		</div>
 
-		<div class="gallery-item">
+		<div class="gallery-item gallery-image__web">
       <a href="https://www.northhollywoodauto.com" target="blank">
-  			<img class="gallery-image" src="{{ site.baseurl }}/images/north-hollywood-web.jpg" alt="North Hollywood Auto | Web design" title="Kolev's | Web design"></a>
+  			<img class="gallery-image" src="{{ site.baseurl }}/images/web/northhollywood.png" alt="North Hollywood Auto | Web design" title="North Hollywood Auto | Web design"></a>
 		</div>
 
-		<div class="gallery-item">
+
+		<div class="gallery-item gallery-image__web">
+  			<!-- <img class="gallery-image" src="{{ site.baseurl }}/images/web/more-soon-2.png" alt="More Designs Soon | Web design" title="North Hollywood Auto | Web design"> -->
+		</div>
+
+<!-- FRONT end -->
+
+		<div class="gallery-title gallery-item">
+			<p><b>Front-End</b><br> Development</p>
+		</div>
+
+		<div class="gallery-item gallery-image__web">
 			<a href="https://www.1st-classtowing.com/" target="blank">
-        <img class="gallery-image" src="{{ site.baseurl }}/images/1stClass-Towing.jpg" alt="First Class Towing | Front-End" title="First Class Towing | Front-End"></a>
+        <img class="gallery-image" src="{{ site.baseurl }}/images/web/firstclass-towing.png" alt="First Class Towing | Front-End" title="First Class Towing | Front-End"></a>
 		</div>
 
-		<div class="gallery-item">
+		<div class="gallery-item gallery-image__web">
       <a href="https://www.germanautowerk.com/" target="blank">
-  			<img class="gallery-image" src="{{ site.baseurl }}/images/german-web.jpg" alt="German Autowerk | Front-End" title="German Autowerk | Front-End"></a>
+  			<img class="gallery-image" src="{{ site.baseurl }}/images/web/germanauto.png" alt="German Autowerk | Front-End" title="German Autowerk | Front-End"></a>
 		</div>
 
-		<div class="gallery-item">
+		<div class="gallery-item gallery-image__web">
       <a href="https://www.avusautosport.com" target="blank">
-  			<img class="gallery-image" src="{{ site.baseurl }}/images/avus-web.jpg" alt="Avus Autosport | Front-End" title="Avus Autosport | Front-End"></a>
+  			<img class="gallery-image" src="{{ site.baseurl }}/images/web/avusautosport.png" alt="Avus Autosport | Front-End" title="Avus Autosport | Front-End"></a>
 		</div>
 	</div>
 </div>

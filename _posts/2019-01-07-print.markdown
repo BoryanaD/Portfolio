@@ -1,0 +1,75 @@
+---
+layout: site2
+type: post
+title:  "Print"
+categories: [blog, home]
+date:   2018-01-07 10:12:17 +0200
+---
+
+<div class="print-grid">
+	<!-- ROW 1 -->
+	<div class="print-grid-items">
+		<!-- <img src="{{ site.baseurl }}/images/brands/kukui-logo.png"> -->
+		<p><b>Postcard</b> Design</p>
+	</div>
+	<div class="print-grid-items_image">
+		<img src="{{ site.baseurl }}/images/postcards-pattern.png">
+	</div>
+
+	<!-- ROW 2 -->
+	<div class="print-grid-items_image">
+		<img class="print_logo" src="{{ site.baseurl }}/images/3con/nani-cover.png">
+	</div>
+	<div class="print-grid-items_end">
+		<!-- <img class="print_logo" src="{{ site.baseurl }}/images/brands/nani.png"> -->
+
+		<p><b>Catalogue</b></p>
+		<p>Size A4 | 16 pages</p>
+		<img src="{{ site.baseurl }}/images/3con/nani-open.png">
+	</div>
+
+	<!-- ROW 3 -->
+	<div class="print-grid-items">
+		<img class="print_logo" src="{{ site.baseurl }}/images/brands/greapevine-awards.png">
+		<p><b>Bella Inside | Corporate Magazine</b></p>
+		<p>First award for corporate magazine of Grapevine awards 2010, Bulgaria</p>
+		<img class="print_logo" src="{{ site.baseurl }}/images/brands/bella.png">
+	</div>
+
+	<div class="print-grid-items_image"><img src="{{ site.baseurl }}/images/bella-magazine.jpg"></div>
+
+	<!-- ROW 4 -->
+
+	<div class="print-grid-items_image">
+		<img src="{{ site.baseurl }}/images/magazines/Regal-open.png">
+	</div>
+	<div class="print-grid-items">
+		<img class="print_logo" src="{{ site.baseurl }}/images/magazines/regal.png">
+		<p><b>Regal</b> | B2B Magazine</p>
+		<img class="print_logo" src="{{ site.baseurl }}/images/brands/economedia.png">
+	</div>
+
+	<!-- ROW 5 -->
+
+	<div class="print-grid-items">
+		<img class="print_logo" src="{{ site.baseurl }}/images/magazines/horemag.png">
+		<p><b>HOREMAG</b> | B2B Magazine</p>
+		<img class="print_logo" src="{{ site.baseurl }}/images/brands/economedia.png">
+	</div>
+	<div class="print-grid-items_image">
+		<img src="{{ site.baseurl }}/images/magazines/Regal-open.png">
+	</div>
+
+	<!-- ROW ? -->
+	<!-- <div class="print-grid-items_image">
+		<img class="print_logo" src="{{ site.baseurl }}/images/3con/mesoestetic.png">
+	</div>
+	<div class="print-grid-items_end">
+		<!-- <img class="print_logo" src="{{ site.baseurl }}/images/brands/nani.png"> -->
+
+		<!-- <p><b>Catalogue</b></p>
+		<p>Size A6 | 64 pages</p>
+		<img src="{{ site.baseurl }}/images/3con/mesoestetic-catalog.png">
+	</div> -->
+
+</div>
