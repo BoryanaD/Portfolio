@@ -10,7 +10,7 @@ date:   2019-01-07 10:12:17 +0200
 
 	<!-- ROW 1 -->
 	<div class="postcards-description">
-		<p>Postcard Design</p>
+		<p><b>Postcard</b> Design</p>
 	</div>
 	<div class="postcards">
 		<img src="{{ site.baseurl }}/images/postcards-pattern.png">
@@ -36,7 +36,7 @@ date:   2019-01-07 10:12:17 +0200
 		<img src="{{ site.baseurl }}/images/brands/greapevine-awards.png" class="bella-inside-logo-awards">
 		<p><b>Bella Inside | Corporate Magazine</b></p>
 		<p>First award for corporate magazine<br>of Grapevine awards 2010, Bulgaria</p>
-		<!-- <img src="{{ site.baseurl }}/images/brands/bella.png" class="print_logo"> -->
+		<img src="{{ site.baseurl }}/images/brands/bella.png" class="print_logo">
 	</div>
 
 	<div class="bella-inside-cover">
@@ -64,5 +64,4 @@ date:   2019-01-07 10:12:17 +0200
 	<div class="horemag-magazine-description">
 		<img src="{{ site.baseurl }}/images/magazines/Regal-open.png">
  </div>
-</div>
 </div>
