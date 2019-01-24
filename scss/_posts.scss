@@ -141,6 +141,7 @@ body {
 
    .bella-inside-cover {
      grid-column: 2 / -1;
+     margin-bottom: 8em;
 
      img {
        padding-left: 10em;
@@ -163,6 +164,7 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
+     margin-bottom: 8em;
      @include breakpoints(phone) {
        grid-column: 1 / -1;
      }
@@ -175,6 +177,7 @@ body {
      justify-content: center;
      align-items: center;
      margin-left: 10em;
+     margin-bottom: 8em;
      @include breakpoints(phone) {
        grid-column: 1 / -1;
        margin-left: 0em;
