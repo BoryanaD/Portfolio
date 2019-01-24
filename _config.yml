@@ -2,8 +2,8 @@ title: Boryana Dyankova
 description: Graphic design
 email: bo.dyankova@gmail.com
 
-baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Portfolio"
+url: ""
 destination: "docs"
 twitter_username: jekyllrb
 github_username:  BoryanaD
@@ -12,8 +12,6 @@ github_username:  BoryanaD
 markdown: kramdown
 plugins:
   - jekyll-feed
-
-#destination: ?
 
 exclude:
   - Gemfile
