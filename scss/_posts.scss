@@ -14,7 +14,7 @@ body {
 
 .gallery {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(18em, 2fr));
+	grid-template-columns: repeat(auto-fit, minmax(19em, 2fr));
 	grid-gap: 2em;
 
   .gallery-title {
@@ -199,7 +199,7 @@ body {
      @include breakpoints(tablet-wide) {
        grid-column: 1 / 1;
        margin-left: 4em;
-       margin-bottom: 13em;
+       margin-bottom: 5em;
      }
      p {
        font-size: 1.5em;
