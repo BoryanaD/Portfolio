@@ -11,19 +11,6 @@ body {
 	padding: 0 1rem 2rem;
 }
 
-// .heading {
-// 	font-family: "Montserrat", Arial, sans-serif;
-// 	font-size: 3rem;
-// 	font-weight: 500;
-// 	line-height: 1.5;
-// 	text-align: center;
-// 	padding: 1rem 0;
-// 	color: #1a1a1a;
-//
-//   span {
-//   	display: block;
-//   }
-// }
 
 .gallery {
 	display: grid;
@@ -33,8 +20,20 @@ body {
   .gallery-title {
     max-width: 350px;
     p {
+      font-size: 1.3em;
       color: var(--color-background);
-      text-align: right;
+      text-align: center;
+      @include breakpoints (phablet) {
+        text-align: right;
+      }
+    }
+  }
+
+  .web-title {
+    display: block;
+    font-weight: bold;
+    @include breakpoints (phablet) {
+      display: inline;
     }
   }
 
@@ -46,12 +45,10 @@ body {
   }
   .gallery-image__web {
    transition: transform 300ms ease-out;
-
   }
   @include breakpoints(tablet-wide){
   .gallery-image__web:hover {
     transform: scale(1.05);
-    // border: 10px solid #fff;
     filter: drop-shadow(0 0 1px var(--color-text-main));}
   }
 }
@@ -102,7 +99,7 @@ body {
    .nani-catalogue {
      grid-column: 1 / 1;
      justify-self: center;
-     padding-left: 2em;
+     padding-left: 5em;
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
        padding-left: 1em;
@@ -189,10 +186,8 @@ body {
      margin-bottom: 5em;
      @include breakpoints (tablet-wide){
        grid-column: 2 / -1;
+       margin-left: 15em;
      }
-     // @include breakpoints(phone-wide) {
-     //   grid-column: 1 / -1;
-     // }
    }
 
    .regal-magazine-description {
@@ -201,8 +196,6 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     // margin-left: 10em;
-     // margin-bottom: 8em;
      @include breakpoints(tablet-wide) {
        grid-column: 1 / 1;
        margin-left: 4em;
@@ -241,5 +234,6 @@ body {
      align-items: center;
      @include breakpoints(tablet-wide) {
        grid-column: 2 / -1;
+       margin-left: 15em;
      }
    }
