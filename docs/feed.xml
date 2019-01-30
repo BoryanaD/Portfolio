@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="/Portfolio/" rel="alternate" type="text/html" /><updated>2019-01-30T22:26:48+02:00</updated><id>/Portfolio/feed.xml</id><title type="html">Boryana Dyankova</title><subtitle>Graphic design</subtitle><entry><title type="html">Print</title><link href="/Portfolio/blog/home/2019/01/07/print.html" rel="alternate" type="text/html" title="Print" /><published>2019-01-07T10:12:17+02:00</published><updated>2019-01-07T10:12:17+02:00</updated><id>/Portfolio/blog/home/2019/01/07/print</id><content type="html" xml:base="/Portfolio/blog/home/2019/01/07/print.html">&lt;div class=&quot;print-grid&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-01-30T22:33:37+02:00</updated><id>/feed.xml</id><title type="html">Boryana Dyankova</title><subtitle>Graphic design</subtitle><entry><title type="html">Print</title><link href="/blog/home/2019/01/07/print.html" rel="alternate" type="text/html" title="Print" /><published>2019-01-07T10:12:17+02:00</published><updated>2019-01-07T10:12:17+02:00</updated><id>/blog/home/2019/01/07/print</id><content type="html" xml:base="/blog/home/2019/01/07/print.html">&lt;div class=&quot;print-grid&quot;&gt;
 
 	&lt;!-- ROW 1 --&gt;
 	&lt;div class=&quot;postcards-description&quot;&gt;
 		&lt;p&gt;&lt;b&gt;Postcard&lt;/b&gt; Design&lt;/p&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;postcards&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/postcards-pattern.png&quot; /&gt;
+		&lt;img src=&quot;/images/postcards-pattern.png&quot; /&gt;
 	&lt;/div&gt;
 
 	&lt;!-- ROW 2 --&gt;
 
 	&lt;div class=&quot;nani-catalogue&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/3con/nani-cover.png&quot; class=&quot;print_logo&quot; /&gt;
+		&lt;img src=&quot;/images/3con/nani-cover.png&quot; class=&quot;print_logo&quot; /&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;nani-catalogue-description&quot;&gt;
@@ -19,73 +19,73 @@
 			&lt;p&gt;&lt;b&gt;Catalogue&lt;/b&gt;&lt;/p&gt;
 			&lt;p&gt;Size A4 | 16 pages&lt;/p&gt;
 		&lt;/div&gt;
-	 &lt;img src=&quot;/Portfolio/images/3con/nani-open.png&quot; /&gt;
+	 &lt;img src=&quot;/images/3con/nani-open.png&quot; /&gt;
 	&lt;/div&gt;
 
 	&lt;!-- ROW 3 --&gt;
 
 	&lt;div class=&quot;bella-inside&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/brands/greapevine-awards.png&quot; class=&quot;bella-inside-logo-awards&quot; /&gt;
+		&lt;img src=&quot;/images/brands/greapevine-awards.png&quot; class=&quot;bella-inside-logo-awards&quot; /&gt;
 		&lt;p&gt;&lt;b&gt;Bella Inside | Corporate Magazine&lt;/b&gt;&amp;nbsp;&lt;/p&gt;
 		&lt;p&gt;First award for corporate magazine&lt;br /&gt;of Grapevine awards 2010, Bulgaria&lt;/p&gt;
-		&lt;img src=&quot;/Portfolio/images/brands/bella.png&quot; class=&quot;print_logo&quot; /&gt;
+		&lt;img src=&quot;/images/brands/bella.png&quot; class=&quot;print_logo&quot; /&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;bella-inside-cover&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/bella-magazine.jpg&quot; /&gt;
+		&lt;img src=&quot;/images/bella-magazine.jpg&quot; /&gt;
 	&lt;/div&gt;
 
 	&lt;!-- ROW 4 --&gt;
 
 	&lt;div class=&quot;regal-magazine-description&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/magazines/regal.png&quot; /&gt;
+		&lt;img src=&quot;/images/magazines/regal.png&quot; /&gt;
 		&lt;p&gt;&lt;b&gt;Regal&lt;/b&gt; | B2B Magazine&lt;/p&gt;
-		&lt;img src=&quot;/Portfolio/images/brands/economedia.png&quot; class=&quot;logo-economedia&quot; /&gt;
+		&lt;img src=&quot;/images/brands/economedia.png&quot; class=&quot;logo-economedia&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;regal-magazine&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/magazines/Regal-open.png&quot; /&gt;
+		&lt;img src=&quot;/images/magazines/Regal-open.png&quot; /&gt;
 	&lt;/div&gt;
 
 	&lt;!-- ROW 5 --&gt;
 
 	&lt;div class=&quot;horemag-magazine&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/magazines/horemag.png&quot; /&gt;
+		&lt;img src=&quot;/images/magazines/horemag.png&quot; /&gt;
 		&lt;p&gt;&lt;b&gt;HOREMAG&lt;/b&gt; | B2B Magazine&lt;/p&gt;
-		&lt;img class=&quot;logo-economedia&quot; src=&quot;/Portfolio/images/brands/economedia.png&quot; /&gt;
+		&lt;img class=&quot;logo-economedia&quot; src=&quot;/images/brands/economedia.png&quot; /&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;horemag-magazine-description&quot;&gt;
-		&lt;img src=&quot;/Portfolio/images/magazines/Regal-open.png&quot; /&gt;
+		&lt;img src=&quot;/images/magazines/Regal-open.png&quot; /&gt;
  &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Logo</title><link href="/Portfolio/blog/home/2018/11/22/logo.html" rel="alternate" type="text/html" title="Logo" /><published>2018-11-22T10:12:17+02:00</published><updated>2018-11-22T10:12:17+02:00</updated><id>/Portfolio/blog/home/2018/11/22/logo</id><content type="html" xml:base="/Portfolio/blog/home/2018/11/22/logo.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Logo</title><link href="/blog/home/2018/11/22/logo.html" rel="alternate" type="text/html" title="Logo" /><published>2018-11-22T10:12:17+02:00</published><updated>2018-11-22T10:12:17+02:00</updated><id>/blog/home/2018/11/22/logo</id><content type="html" xml:base="/blog/home/2018/11/22/logo.html">&lt;div class=&quot;container&quot;&gt;
 
 	&lt;div class=&quot;gallery&quot;&gt;
 
 		&lt;div class=&quot;gallery-item&quot;&gt;
-			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/Hezatraf.png&quot; alt=&quot;Hezatraf | Logo design&quot; title=&quot;Hezatraf Logo design&quot; /&gt;
+			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/Hezatraf.png&quot; alt=&quot;Hezatraf | Logo design&quot; title=&quot;Hezatraf Logo design&quot; /&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item&quot;&gt;
-			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/Kolev.jpg&quot; alt=&quot;Kolev's | Logo design&quot; title=&quot;Kolev's | Logo design&quot; /&gt;
+			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/Kolev.jpg&quot; alt=&quot;Kolev's | Logo design&quot; title=&quot;Kolev's | Logo design&quot; /&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item&quot;&gt;
-			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/Bar-of-Clove.jpg&quot; alt=&quot;Bar of Clove | Logo design&quot; title=&quot;Bar of Clove | Logo design&quot; /&gt;
+			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/Bar-of-Clove.jpg&quot; alt=&quot;Bar of Clove | Logo design&quot; title=&quot;Bar of Clove | Logo design&quot; /&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item&quot;&gt;
-			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/TheBrothers.jpg&quot; alt=&quot;The Brothers | Logo design&quot; title=&quot;The Brothers | Logo design&quot; /&gt;
+			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/TheBrothers.jpg&quot; alt=&quot;The Brothers | Logo design&quot; title=&quot;The Brothers | Logo design&quot; /&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item&quot;&gt;
-			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/European-Deli.jpg&quot; alt=&quot;European Delicious | Logo design&quot; title=&quot;European Delicious | Logo design&quot; /&gt;
+			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/European-Deli.jpg&quot; alt=&quot;European Delicious | Logo design&quot; title=&quot;European Delicious | Logo design&quot; /&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item&quot;&gt;
-			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/north-hollywood.jpg&quot; alt=&quot;North Hollywood Auto Repair | Logo design&quot; title=&quot;North Hollywood Auto Repair | Logo design&quot; /&gt;
+			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/north-hollywood.jpg&quot; alt=&quot;North Hollywood Auto Repair | Logo design&quot; title=&quot;North Hollywood Auto Repair | Logo design&quot; /&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Web</title><link href="/Portfolio/blog/home/2018/11/15/web.html" rel="alternate" type="text/html" title="Web" /><published>2018-11-15T10:12:17+02:00</published><updated>2018-11-15T10:12:17+02:00</updated><id>/Portfolio/blog/home/2018/11/15/web</id><content type="html" xml:base="/Portfolio/blog/home/2018/11/15/web.html">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Web</title><link href="/blog/home/2018/11/15/web.html" rel="alternate" type="text/html" title="Web" /><published>2018-11-15T10:12:17+02:00</published><updated>2018-11-15T10:12:17+02:00</updated><id>/blog/home/2018/11/15/web</id><content type="html" xml:base="/blog/home/2018/11/15/web.html">&lt;div class=&quot;container&quot;&gt;
 
 
 	&lt;div class=&quot;gallery&quot;&gt;
@@ -94,17 +94,17 @@
 		&lt;/div&gt;
 		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
 			&lt;a href=&quot;https://www.deansautomotive.com&quot; target=&quot;blank&quot;&gt;
-        &lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/web/deansautomotive.png&quot; alt=&quot;Deans Automotive | Web design&quot; title=&quot;Deans Automotive | Web design&quot; /&gt;&lt;/a&gt;
+        &lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/deansautomotive.png&quot; alt=&quot;Deans Automotive | Web design&quot; title=&quot;Deans Automotive | Web design&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
       &lt;a href=&quot;https://www.northhollywoodauto.com&quot; target=&quot;blank&quot;&gt;
-  			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/web/northhollywood.png&quot; alt=&quot;North Hollywood Auto | Web design&quot; title=&quot;North Hollywood Auto | Web design&quot; /&gt;&lt;/a&gt;
+  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/northhollywood.png&quot; alt=&quot;North Hollywood Auto | Web design&quot; title=&quot;North Hollywood Auto | Web design&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
 
 		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
-  			&lt;!-- &lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/web/more-soon-2.png&quot; alt=&quot;More Designs Soon | Web design&quot; title=&quot;North Hollywood Auto | Web design&quot;&gt; --&gt;
+  			&lt;!-- &lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/more-soon-2.png&quot; alt=&quot;More Designs Soon | Web design&quot; title=&quot;North Hollywood Auto | Web design&quot;&gt; --&gt;
 		&lt;/div&gt;
 
 &lt;!-- FRONT end --&gt;
@@ -115,17 +115,17 @@
 
 		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
 			&lt;a href=&quot;https://www.1st-classtowing.com/&quot; target=&quot;blank&quot;&gt;
-        &lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/web/firstclass-towing.png&quot; alt=&quot;First Class Towing | Front-End&quot; title=&quot;First Class Towing | Front-End&quot; /&gt;&lt;/a&gt;
+        &lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/firstclass-towing.png&quot; alt=&quot;First Class Towing | Front-End&quot; title=&quot;First Class Towing | Front-End&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
       &lt;a href=&quot;https://www.germanautowerk.com/&quot; target=&quot;blank&quot;&gt;
-  			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/web/germanauto.png&quot; alt=&quot;German Autowerk | Front-End&quot; title=&quot;German Autowerk | Front-End&quot; /&gt;&lt;/a&gt;
+  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/germanauto.png&quot; alt=&quot;German Autowerk | Front-End&quot; title=&quot;German Autowerk | Front-End&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 
 		&lt;div class=&quot;gallery-item gallery-image__web&quot;&gt;
       &lt;a href=&quot;https://www.avusautosport.com&quot; target=&quot;blank&quot;&gt;
-  			&lt;img class=&quot;gallery-image&quot; src=&quot;/Portfolio/images/web/avusautosport.png&quot; alt=&quot;Avus Autosport | Front-End&quot; title=&quot;Avus Autosport | Front-End&quot; /&gt;&lt;/a&gt;
+  			&lt;img class=&quot;gallery-image&quot; src=&quot;/images/web/avusautosport.png&quot; alt=&quot;Avus Autosport | Front-End&quot; title=&quot;Avus Autosport | Front-End&quot; /&gt;&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

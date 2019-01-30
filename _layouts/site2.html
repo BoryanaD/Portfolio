@@ -18,10 +18,13 @@
         <p class="site-description">{{ site.description }}</p>
       </div>
 
-      <label for="nav-main-toggle" class="fas fa-bar nav-toglle right"></label>
+      <label id="nav-toggle" for="nav-main-toggle" class="fas fa-bar nav-toglle right"></label>
       <nav class="navigation main">
         <ul>
           <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ post.url }}/blog/home/2019/01/07/print.html">Print</a></li>
+          <li><a href="{{ post.url }}/blog/home/2018/11/15/web.html">Web</a></li>
+          <li><a href="{{ post.url }}/blog/home/2018/11/22/logo.html">Logo</a></li>
           <li><a href="{{ site.baseurl }}/about/">About</a></li>
           <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>
         </ul>
