@@ -27,7 +27,7 @@ body {
 
 .gallery {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(20em, 2fr));
+	grid-template-columns: repeat(auto-fit, minmax(18em, 2fr));
 	grid-gap: 2em;
 
   .gallery-title {
@@ -60,57 +60,68 @@ body {
 
  .print-grid {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: minmax(min-content, 500px) minmax(650px, 1fr) 1fr;
    grid-template-rows: auto;
    grid-gap: 1vw;
-   // justify-items: stretch;
-   // justify-content: space-evenly;
-   // align-content: start; triabva da ima setnat hight za da raboti ili fixiran template row
    @include breakpoints(phone-wide) {
      grid-template-columns: repeat(1, 1fr);
      grid-gap: 5vw;
    }
+   img { max-width: 100%;}
 
    .postcards-description {
-     grid-column: 1 / 1;
+     z-index: 1;
+     grid-column: 1 / 2;
      @include breakpoints(phone-wide) { grid-column: 1 / -1; }
 
      p {
-       font-size: 1.8em;
-       padding: 6em 0 0 10em;
+       font-size: 1.6em;
+       padding: 4em 0 0 2em;;
+       @include breakpoints(tablet-wide){
+         font-size: 1.6em;
+         padding: 5em 0 0 8em
+       }
+       @include breakpoints(phone-wide) {
+         font-size: 1.2em;
+         padding: 2em 0 0 10em;
+       }
      }
-
    }
 
    .postcards {
      grid-column: 2 / -1;
+     justify-self: end;
      @include breakpoints(phone-wide) {
        grid-column:  1 / -1;
        img {
-         margin-bottom: 9em;
+         margin-bottom: 2em;
        }
      }
    }
 
    .nani-catalogue {
-     grid-column: 1 / 3;
-     padding-left: 18em;
+     grid-column: 1 / 1;
      justify-self: center;
-     align-self: center;
+     padding-left: 2em;
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
+       padding-left: 1em;
+      }
      }
    }
 
    .nani-catalogue-description {
-     grid-column: 3 / -1;
+     grid-column: 2 / -1;
      justify-self: center;
      align-self: end;
+     padding-top: 3em;
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
      }
-
-     p { font-size: 1.8em;}
+     p { font-size: 1.7em;}
+     @include breakpoints (phone-wide) {
+       font-size: 1.2em;
+     }
      // p:nth-child(2) { margin-bottom: 10em; }
 
    }
@@ -119,10 +130,15 @@ body {
      grid-column: 1 / 2;
      display: flex;
      flex-direction: column;
-     justify-content: center;
-     align-content: center;
+     justify-content: flex-start;
+     align-content: flex-start;
+     overflow: visible;
+     white-space: nowrap;
+     margin-left: 5em;
+
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
+       margin-left: 0;
      }
 
      .bella-inside-logo-awards, .print_logo {
@@ -130,89 +146,100 @@ body {
        padding-top: 2em;
        margin-bottom: 2em;
      }
+     img {
+       max-width: 40%;
+     }
      > p {
        font-size: 1.5em;
        text-align: center;
+
+       @include breakpoints (phone-wide) {
+         font-size: 1.1em;
+       }
      }
      p:first-child {
        margin-top: 2em;
+       text-transform: uppercase;
      }
    }
 
    .bella-inside-cover {
      grid-column: 2 / -1;
-     margin-bottom: 8em;
+     margin-bottom: 3em;
 
      img {
-       padding-left: 10em;
-       padding-top: 10em;
+       padding-left: 0;
+       padding-top: 1em;
+       @include breakpoints (tablet-wide){
+         padding-left: 10em;
+       }
      }
 
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
-       img {
-         padding-top: 0em;
-         padding-left: 5em;
-         padding-bottom: 5em;
-       }
      }
 
    }
 
    .regal-magazine {
-     grid-column: 1 / 2;
+     grid-column: 1 / -1;
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-bottom: 8em;
-     @include breakpoints(phone-wide) {
-       grid-column: 1 / -1;
+     margin-bottom: 5em;
+     @include breakpoints (tablet-wide){
+       grid-column: 2 / -1;
      }
+     // @include breakpoints(phone-wide) {
+     //   grid-column: 1 / -1;
+     // }
    }
 
    .regal-magazine-description {
-     grid-column: 2 / -1;
+     grid-column: 1 / -1;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin-left: 10em;
-     margin-bottom: 8em;
-     @include breakpoints(phone-wide) {
-       grid-column: 1 / -1;
-       margin-left: 0em;
+     // margin-left: 10em;
+     // margin-bottom: 8em;
+     @include breakpoints(tablet-wide) {
+       grid-column: 1 / 1;
+       margin-left: 4em;
        margin-bottom: 13em;
      }
      p {
        font-size: 1.5em;
        text-align: center;
-       margin-top: 3em;
+       margin-top: 1em;
      }
+     & .logo-economedia { width: 30%; }
    }
 
    .horemag-magazine {
-     grid-column: 1 / 3;
+     grid-column: 1 / -1;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     @include breakpoints(phone-wide) {
-       grid-column: 1 / -1;
+     @include breakpoints(tablet-wide) {
+       grid-column: 1 / 2;
+       margin-left: 4em;
      }
      p {
        font-size: 1.5em;
        text-align: center;
-       margin-top: 3em;
+       margin-top: 1em;
      }
+     & .logo-economedia { width: 30%; }
    }
 
    .horemag-magazine-description {
-     grid-column: 3 / -1;
+     grid-column: 1 / -1;
      display: flex;
      justify-content: center;
      align-items: center;
-     @include breakpoints(phone-wide) {
-       grid-column: 1 / -1;
+     @include breakpoints(tablet-wide) {
+       grid-column: 2 / -1;
      }
    }
- }
