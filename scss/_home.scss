@@ -11,9 +11,7 @@ section.home-grid {
 
   div > p {
     align-self: start;
-    // font-size: 3vw;
     color: #55efc4;
-    // padding: 1rem 2rem 2rem 0;
   }
 }
 
@@ -33,18 +31,16 @@ section.home-grid {
   outline-color:var(--color-background);
   outline-width: 1.2vw;
   overflow: visible;
+
+  @include breakpoints(tablet) {
+    outline-width: 1.1vw;
+  }
 }
 
-@include breakpoints(tablet) {
-  .grid > div {outline-width: 1.1vw;}
-}
 
 div {
   & .green {
     background-color: rgba(85, 239, 196,0.4);
-  & .green:hover {
-      background: rgba(85, 239, 196,1);
-    }
   }
   & .green-dark {
     background-color: rgba(85, 239, 196, 0.7);
@@ -53,8 +49,11 @@ div {
     background-color: rgba(7, 153, 146,1.0);
   }
   & .dyankova {
-    font-size: 1.5em;
+    font-size: 1.4em;
     grid-column-start: span 4;
+    @include breakpoints(phone-wide) {
+      font-size: 1.2em;
+    }
   }
   & .boryana {
     font-size: 2.2em;
@@ -67,7 +66,6 @@ div {
   & .test {
     grid-column-end: span 3;
   }
-
 
   & p { padding-bottom: 0;}
 
@@ -89,7 +87,6 @@ div {
     grid-column-end: span 3;
     grid-row-end: span 3;
   }
-
 
   & .under-eyes {
     grid-column-end: span 3;

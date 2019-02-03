@@ -36,12 +36,8 @@ layout: site
         <ul class="listing posts">
             {% for post in site.posts %}
               <li>
-                <!-- <svg height="40" width="180">
-                        <rect class="shape" height="40" width="180" />
-                      </svg> -->
                 <a href="{{ site.baseurl }}{{ post.url }}">
                   <span class="title">{{ post.title }}</span>
-                  <!-- <span class="title">{{ post.date | date_to_string }}</span> -->
                 </a>
               </li>
             {% endfor %}

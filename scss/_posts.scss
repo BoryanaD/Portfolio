@@ -19,10 +19,12 @@ body {
 
   .gallery-title {
     max-width: 350px;
+
     p {
       font-size: 1.3em;
       color: var(--color-background);
       text-align: center;
+
       @include breakpoints (phablet) {
         text-align: right;
       }
@@ -45,12 +47,12 @@ body {
   }
   .gallery-image__web {
    transition: transform 300ms ease-out;
+   @include breakpoints(tablet-wide){
+     transform: scale(1.05);
+     filter: drop-shadow(0 0 1px var(--color-text-main));
+   }
   }
-  @include breakpoints(tablet-wide){
-  .gallery-image__web:hover {
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 1px var(--color-text-main));}
-  }
+
 }
 
  // ------------ GRID PRINT ------------------
@@ -60,27 +62,31 @@ body {
    grid-template-columns: minmax(min-content, 500px) minmax(650px, 1fr) 1fr;
    grid-template-rows: auto;
    grid-gap: 1vw;
+
    @include breakpoints(phone-wide) {
      grid-template-columns: repeat(1, 1fr);
      grid-gap: 5vw;
    }
+
    img { max-width: 100%;}
 
    .postcards-description {
      z-index: 1;
      grid-column: 1 / 2;
+
      @include breakpoints(phone-wide) { grid-column: 1 / -1; }
 
      p {
        font-size: 1.6em;
        padding: 4em 0 0 2em;;
+
        @include breakpoints(tablet-wide){
          font-size: 1.6em;
-         padding: 5em 0 0 8em
+         padding: 5em 0 0 6em
        }
+
        @include breakpoints(phone-wide) {
          font-size: 1.2em;
-         padding: 2em 0 0 10em;
        }
      }
    }
@@ -88,8 +94,10 @@ body {
    .postcards {
      grid-column: 2 / -1;
      justify-self: end;
+
      @include breakpoints(phone-wide) {
        grid-column:  1 / -1;
+
        img {
          margin-bottom: 2em;
        }
@@ -100,6 +108,7 @@ body {
      grid-column: 1 / 1;
      justify-self: center;
      padding-left: 5em;
+
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
        padding-left: 1em;
@@ -112,15 +121,16 @@ body {
      justify-self: center;
      align-self: end;
      padding-top: 3em;
+
      @include breakpoints(phone-wide) {
        grid-column: 1 / -1;
      }
-     p { font-size: 1.7em;}
+
+     p { font-size: 1.5em;}
+
      @include breakpoints (phone-wide) {
        font-size: 1.2em;
      }
-     // p:nth-child(2) { margin-bottom: 10em; }
-
    }
 
    .bella-inside {
@@ -143,9 +153,11 @@ body {
        padding-top: 2em;
        margin-bottom: 2em;
      }
+
      img {
        max-width: 40%;
      }
+
      > p {
        font-size: 1.5em;
        text-align: center;
@@ -154,6 +166,7 @@ body {
          font-size: 1.1em;
        }
      }
+
      p:first-child {
        margin-top: 2em;
        text-transform: uppercase;
@@ -167,6 +180,7 @@ body {
      img {
        padding-left: 0;
        padding-top: 1em;
+
        @include breakpoints (tablet-wide){
          padding-left: 10em;
        }
@@ -184,6 +198,7 @@ body {
      justify-content: center;
      align-items: center;
      margin-bottom: 5em;
+
      @include breakpoints (tablet-wide){
        grid-column: 2 / -1;
        margin-left: 15em;
@@ -196,17 +211,21 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+
      @include breakpoints(tablet-wide) {
        grid-column: 1 / 1;
        margin-left: 4em;
        margin-bottom: 5em;
      }
+
      p {
        font-size: 1.5em;
        text-align: center;
        margin-top: 1em;
      }
+
      & .logo-economedia { width: 30%; }
+
    }
 
    .horemag-magazine {
@@ -215,10 +234,12 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+
      @include breakpoints(tablet-wide) {
        grid-column: 1 / 2;
        margin-left: 4em;
      }
+
      p {
        font-size: 1.5em;
        text-align: center;
@@ -232,6 +253,7 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
+     
      @include breakpoints(tablet-wide) {
        grid-column: 2 / -1;
        margin-left: 15em;

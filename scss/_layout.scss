@@ -37,6 +37,7 @@ body {
 
     img {
       display: none;
+
       @include breakpoints(tablet) {
       display: block;
       opacity: 0.8;
@@ -60,6 +61,8 @@ body {
 
 /* --------------About Me End---------------------------*/
 
+
+
 /* --------------Contacts ---------------------------*/
 
 .contact-wraper {
@@ -78,6 +81,7 @@ body {
     }
   }
 }
+
 .fa-github-square:before, .fa-linkedin:before {
   font-size: 2em;
   margin: 0.3em;

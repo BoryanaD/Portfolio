@@ -1,7 +1,7 @@
 .listing {
     display: block;
     padding-left: 0;
-    margin-top: 0;
+    margin-top: 0.3em;
     letter-spacing: 2px;
 
     @include breakpoints(tablet-wide) {margin-top: 1.3em;}
@@ -18,7 +18,6 @@
       display: block;
       list-style: none outside;
       flex: 0 1 25%;
-      margin-top: 0.25em;
     }
 
     a {
@@ -28,14 +27,14 @@
       text-decoration: none;
       border-bottom: 1px solid #002933;
       transition: color,border-bottom 0.3s ease-in;
+
+      @include breakpoints(tablet-wide) {
+        font-size:var(--font-siz-initial);
+      }
     }
+
     a:hover {
       color: #FFF;
       border-bottom: 2px solid #10ac84;
     }
-
-    @include breakpoints(tablet-wide) {
-      a {font-size:var(--font-siz-initial);
-    }
   }
-}
