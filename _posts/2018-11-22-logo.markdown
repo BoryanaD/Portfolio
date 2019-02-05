@@ -11,28 +11,40 @@ date:   2018-11-22 10:12:17 +0200
 	<div class="gallery">
 
 		<div class="gallery-item">
-			<img class="gallery-image" src="{{ site.baseurl }}/images/Hezatraf.png" alt="Hezatraf | Logo design" title="Hezatraf Logo design">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/clove-logo.png" alt="Bar of Clove | Logo design" title="Bar of Clove | Logo design">
+		</div>
+
+		<div class="gallery-item logo__border">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/deno.png" alt="Deno| Logo design"  title="Deno | Logo design">
 		</div>
 
 		<div class="gallery-item">
-			<img class="gallery-image" src="{{ site.baseurl }}/images/Kolev.jpg" alt="Kolev's | Logo design" title="Kolev's | Logo design">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/kolev-logo.png" alt="Kolev's | Logo design" title="Kolev's | Logo design">
 		</div>
 
 		<div class="gallery-item">
-			<img class="gallery-image" src="{{ site.baseurl }}/images/Bar-of-Clove.jpg" alt="Bar of Clove | Logo design" title="Bar of Clove | Logo design">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/TheBrothers.jpg" alt="The Brothers | Logo design" title="The Brothers | Logo design">
 		</div>
 
 		<div class="gallery-item">
-			<img class="gallery-image" src="{{ site.baseurl }}/images/TheBrothers.jpg" alt="The Brothers | Logo design" title="The Brothers | Logo design">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/Hezatraf-logo.png" alt="Hezatraf | Logo design" title="Hezatraf | Logo design">
+		</div>
+
+		<div class="gallery-item logo__border">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/molerite-logo-s.png" alt="Molerite | Logo design"  title="Molerite | Logo design">
 		</div>
 
 		<div class="gallery-item">
-			<img class="gallery-image" src="{{ site.baseurl }}/images/European-Deli.jpg" alt="European Delicious | Logo design" title="European Delicious | Logo design">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/e-privilage-logo-s.png" alt="Esthetic Privilege | Logo design" title="Esthetic Privilege | Logo design">
 		</div>
 
-		<div class="gallery-item">
-			<img class="gallery-image" src="{{ site.baseurl }}/images/north-hollywood.jpg" alt="North Hollywood Auto Repair | Logo design" title="North Hollywood Auto Repair | Logo design">
+		<div class="gallery-item logo__border">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/European-Deli.jpg" alt="European Delicious | Logo design"  title="European Delicious | Logo design">
 		</div>
+
+		<!-- <div class="gallery-item">
+			<img class="gallery-image" src="{{ site.baseurl }}/images/logos/north-hollywood.jpg" alt="North Hollywood Auto Repair | Logo design" title="North Hollywood Auto Repair | Logo design">
+		</div> -->
 	</div>
 
 </div>

@@ -31,9 +31,14 @@ body {
     }
   }
 
+  .logo__border {
+    border: 1px solid #cacecd;
+  }
+
   .web-title {
     display: block;
     font-weight: bold;
+
     @include breakpoints (phablet) {
       display: inline;
     }
@@ -43,10 +48,11 @@ body {
   	display: block;
   	width: 100%;
   	height: 100%;
-  	object-fit: cover;
   }
+
   .gallery-image__web {
    transition: transform 300ms ease-out;
+
    @include breakpoints(tablet-wide){
      transform: scale(1.05);
      filter: drop-shadow(0 0 1px var(--color-text-main));
@@ -253,7 +259,7 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
-     
+
      @include breakpoints(tablet-wide) {
        grid-column: 2 / -1;
        margin-left: 15em;
