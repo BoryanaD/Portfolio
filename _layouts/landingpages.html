@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{{ site.title }}</title>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/fav.png" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
 </head>
 <body class="{% if page.type %}{{page.type}} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
