@@ -1,6 +1,9 @@
 body {
   color: var(--color-text-main, #5d9193);
   background: var(--color-background, #002933);
+  &.logo, &.web, &.print {
+    background: #fff;;
+  }
 }
 .site {
   padding: var(--spacing-site, 1.2em); }
