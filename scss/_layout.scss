@@ -85,15 +85,15 @@ body {
   }
 }
 
-.fa-github-square:before, .fa-linkedin:before {
+.fa-github-square:before, .fa-linkedin:before, .fa-behance-square:before {
   font-size: 2em;
   margin: 0.3em;
 }
 
-span {
-  &.github, &.linkedin {
-    display: none;
-  }
-}
+// span {
+//   &.github, &.linkedin {
+//     display: none;
+//   }
+// }
 
 /* --------------Contacts End ---------------------------*/
